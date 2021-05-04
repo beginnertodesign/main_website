@@ -1,0 +1,88 @@
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  height: 16vh;
+}
+#mainimg {
+  width: 90px;
+}
+.navigate {
+  display: contents;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.navigate a img {
+  width: 60px;
+  margin-top: 15px;
+}
+.navigate a {
+  align-items: center;
+  justify-content: space-between;
+}
+#homeicon {
+  width: 70px;
+}
+#mainhead {
+  margin: 30px;
+  margin-bottom: 0px;
+  align-content: center;
+}
+h1 {
+  margin-top: 0px;
+  margin-left: 300px;
+  color: rgb(132, 0, 255);
+  position: relative;
+}
+#centerimg {
+  margin-left: 15px;
+  width: 160%;
+  margin-top: 0px;
+  height: 300px;
+  position: relative;
+}
+.content {
+  display: flex;
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 200px;
+  margin-right: 90px;
+  font-size: 1.5em;
+  text-align: center;
+}
+p {
+  justify-content: space-around;
+  text-align: center;
+}
+footer img {
+  float: right;
+  width: 90px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+#copyright {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+h4 {
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 50px;
+  padding-left: 70px;
+}
+body {
+  background-color: lavenderblush;
+}
+.navigate a:hover {
+  background-color: lime;
+  transition: all ease 2s;
+}
+.centercont {
+  color: rgb(36, 170, 163);
+}
+#queryline {
+  color: red;
+}
