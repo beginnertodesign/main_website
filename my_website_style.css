@@ -93,6 +93,7 @@ body {
   box-sizing: border-box;
   background: url("edu_img_backgrnd.jfif") no-repeat bottom; /*this is a shorthand notation for the background property which includes the linear order of properties color,image,repeat,position,size*/
   background-size: 500px 50px;
+  transition: all ease 0.4s;
 }
 .navigate a:hover {
   background-color: lime;
