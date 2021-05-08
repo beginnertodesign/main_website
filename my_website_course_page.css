@@ -35,10 +35,12 @@
   height: 320px;
 }
 marquee {
-  color: red;
+  color: yellow;
 }
 body {
-  background-color: rgb(212, 230, 245);
+  background-image: url("background-img5.jpeg");
+  background-repeat: no-repeat;
+  background-size: 5000px;
 }
 .course_detail_start {
   background-color: orange;
@@ -95,14 +97,15 @@ h3 {
   border-radius: 8px;
   width: 50%;
   background-color: antiquewhite;
+  box-shadow: 5px 5px 0px 0px yellowgreen;
 }
 #course_detail_ind_line {
   font-weight: 800;
   font-style: italic;
-  color: brown;
+  color: rgb(251, 255, 0);
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 1.3px 1.3px darkred;
+  text-shadow: 1.3px 1.3px rgb(50, 255, 9);
 }
 .courses {
   display: flex;
@@ -170,12 +173,12 @@ h3 {
   text-align: center;
   font-size: 1.2em;
   font-style: italic;
-  text-shadow: 1.3px 1.3px 6px red;
-  color: black;
+  text-shadow: 1.3px 1.3px 6px rgb(255, 0, 0);
+  color: rgb(251, 255, 0);
 }
 footer {
   text-align: center;
-  color: darkslateblue;
+  color: rgb(0, 255, 13);
 }
 .collaboration_gifs_details {
   display: flex;
@@ -193,4 +196,10 @@ footer {
   text-transform: uppercase;
   text-align: center;
   margin-left: 10px;
+}
+#course_page_collaboration_gif2 {
+  margin-right: 5px;
+}
+.course_conts {
+  color: yellow;
 }
