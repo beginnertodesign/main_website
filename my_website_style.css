@@ -68,15 +68,12 @@ h3 {
   padding: 5px;
   text-align: justify;
 }
-p {
-  justify-content: space-around;
-  text-align: center justify;
-}
 footer img {
   float: right;
   width: 90px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
+}
+footer {
+  justify-content: space-around;
 }
 #copyright {
   text-align: center;
@@ -94,7 +91,8 @@ h4 {
 }
 
 body {
-  background-color: rgb(241, 222, 228);
+  background-image: url("background-img4.jpeg");
+  background-size: 100%;
 }
 .navigate a:hover {
   background-color: lime;
@@ -105,9 +103,8 @@ body {
   font-style: italic;
   border-radius: 30px;
   border: 5px dotted rgb(167, 96, 167);
-  width: 50%;
-  margin-left: 0px;
-  height: 52vh;
+  margin-left: 15px;
+  height: 55vh;
 }
 #queryline {
   color: red;
@@ -116,10 +113,13 @@ body {
   text-align: center;
   font-family: fantasy;
   text-indent: 30px;
-  text-shadow: 3px 3px 5px yellow;
+  text-shadow: 3px 3px 5px rgb(230, 141, 248);
   color: red;
   background-color: seashell;
   margin-left: 7px;
+  border-left: 6px solid yellow;
+  background-color: rgb(245, 245, 220);
+  position: static;
 }
 #centerimg2 {
   float: right;
