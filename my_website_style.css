@@ -93,6 +93,7 @@ h4 {
 body {
   background-image: url("background-img4.jpeg");
   background-size: 100%;
+  background-repeat:no repeat;
 }
 .navigate a:hover {
   background-color: lime;
